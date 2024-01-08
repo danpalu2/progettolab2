@@ -36,7 +36,7 @@ Il file è scritto in C, accetta sulla linea di comando il nome di un file di te
 - Lunghezza della sequenza;
 - Sequenza letta dal file.
 
-## Client2.c
+## Client2.py
 
 Il file è scritto in python, accetta sulla linea di comando il nome di uno o più file di testo. Per ogni file di testo passato sulla linea di comando crea un thread che si collega al server e invia una alla volta le linee del file con una connessione di tipo B (una per ogni thread creato). Il file accetta gli argomenti tramite il modulo argparse. Ogni thread creato tiene traccia del numero di sequenze inviate al server e apre il file in lettura. Viene attivata una singola connessione per file dove vengono inviate tutte le linee di testo. Anche il client2 invia al server i dati nell'ordine:
 
